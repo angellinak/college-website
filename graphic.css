@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	padding:  0;
+	margin:  0;
+}
+
+.header {
+	width:  101%;
+	margin-left: -1%;
+}
+
+.page-title-wrap {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #00498F;
+	text-align: center;
+	color: white;
+	font-family: serif;
+	margin-top:  -5px;s
+
+}
+
+.subhead {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+
+}
+
+.text-wrap {
+	background-color: #00498F;
+	padding:  20px;
+	width:  50%;
+	margin:  20px auto 50px auto;
+	box-shadow: -15px 15px 0px #012658;
+}
+
+.text {
+	text-align: center;
+	color:  white;
+
+}
+section {
+	width: 100%;
+	background-image: url(applynow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 200px 0px;
+}
+
+.btn {
+	color: white;
+	background-color: #012658;
+	padding: 20px 40px;
+	box-shadow: 0px -5px 0px #00498F;
+	text-decoration: none;
+	transition: top .3s ease;
+	position: relative;
+}
+
+h1 {
+
+}
+
+footer {
+	text-align: center;
+	background-color: #00498F;
+	display: flex;
+	align-items: center;
+
+}
+
+footer .img-wrap {
+	text-align: left;
+	padding:  10px;
+}
+
+footer img {
+	width:  100px;
+}
+
+.footer-text a, .footer-text p {
+	color: white;
+}
+
+footer div {
+	width: 33%;
+}
